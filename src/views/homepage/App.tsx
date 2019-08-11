@@ -24,7 +24,7 @@ export const Item = ({ children, ...props }: React.PropsWithChildren<{ url: stri
 )
 
 export const Header = ({ children }: React.PropsWithChildren<{}>): JSX.Element => (
-    <Title role="heading" aria-label={children!.toString() || 'Missing Title'}>
+    <Title role="heading" aria-level={1} aria-label={children!.toString() || 'Missing Title'}>
         {children}
     </Title>
 )
