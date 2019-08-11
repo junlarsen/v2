@@ -1,12 +1,19 @@
 import React from 'react'
 import { Nav } from '../../components/nav/Nav'
 import { Footing } from '../../components/footing/Footing'
-import { Container, Content, SliceContainer, Title, ListItem, Label, Text, Group } from './Styles'
+import { Container, Content, SliceContainer, Title, ListItem, Label, Text, Group, Image, LogoFrame } from './Styles'
+import Icon from '../../icon.png';
 
 export const Slice = ({ children, ...props }: React.PropsWithChildren<{ size: number }>): JSX.Element => (
     <SliceContainer {...props}>
         {children}
     </SliceContainer>
+)
+
+export const Logo = (): JSX.Element => (
+    <LogoFrame>
+        <Image src={Icon} alt="a fish shark thing icon" />
+    </LogoFrame>
 )
 
 export const Item = ({ children, ...props }: React.PropsWithChildren<{ url: string, label: string }>): JSX.Element => (
@@ -27,7 +34,7 @@ export const App = (): JSX.Element => (
         <Nav/>
         <Content>
             <Slice size={4}>
-                needs content
+                <Logo />
             </Slice>
             <Slice size={8}>
                 <Group>

@@ -17,6 +17,21 @@ export const Group = styled.div`
   margin-bottom: 2.5rem;
 `
 
+export const LogoFrame = styled.div`
+  width: 100%;
+  padding: 1rem;
+`
+
+export const Image = styled.img`
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  
+  @media (min-width: 678px) {
+    max-width: 100%;
+  }
+`
+
 export const ListItem = styled.p`
   margin: 0.4rem 0;
   color: #f7fafc;
