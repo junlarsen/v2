@@ -12,7 +12,6 @@ export const Nav = (): JSX.Element => (
         <NavItem to="/" hide={false}>supergrecko.dev</NavItem>
         <Group>
             <NavItem to="https://twitter.com/supergrecko" hide={true}>twitter</NavItem>
-            <NavItem to="https://notes.supergrecko.dev" hide={true}>notebook</NavItem>
             <NavItem to="mailto:me@supergrecko.com" hide={true}>email</NavItem>
             <NavItem to="https://github.com/supergrecko" hide={false}>github</NavItem>
         </Group>
