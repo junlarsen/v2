@@ -15,11 +15,21 @@ export const Group = styled.div`
 `
 
 export const LinkItem = styled.a`
-  padding: 0 1rem;
-  color: #48bb78;
+  margin: 0 1rem;
+  color: #29b6f6;
   text-decoration: none;
   font-family: monospace;
   font-size: 1.5rem;
+  
+  border-bottom: 3px solid transparent;
+  -o-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  
+  &:hover {
+    border-bottom: 3px solid #f7fafc;
+  }
   
   &.hidden {
     display: none;
