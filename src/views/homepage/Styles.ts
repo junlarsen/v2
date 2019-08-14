@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const Text = styled.p`
   margin: 0.4rem 0;
   color: #f7fafc;
-  font-family: monospace;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.3rem;
 `
 
@@ -35,7 +35,7 @@ export const Image = styled.img`
 export const ListItem = styled.p`
   margin: 0.4rem 0;
   color: #f7fafc;
-  font-family: monospace;
+  font-family: 'Nunito', sans-serif;
   font-size: 1.3rem;
   
   &:before {
@@ -45,17 +45,15 @@ export const ListItem = styled.p`
 
 export const Label = styled.a`
   color: #48bb78;
+  line-height: 1.5rem;
 `
 
 export const Title = styled.h1`
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
   color: #ecc94b;
   margin: 0.4rem 0;
   font-size: 1.75rem;
-  
-  &:before {
-    content: "> "
-  }
 `
 
 export const SliceContainer = styled.div`

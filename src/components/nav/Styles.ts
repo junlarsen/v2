@@ -18,7 +18,8 @@ export const LinkItem = styled.a`
   margin: 0 1rem;
   color: #29b6f6;
   text-decoration: none;
-  font-family: monospace;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 1.5rem;
   
   border-bottom: 3px solid transparent;

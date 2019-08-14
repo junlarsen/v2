@@ -38,40 +38,39 @@ export const App = (): JSX.Element => (
             </Slice>
             <Slice size={8}>
                 <Group>
-                    <Header>about me ...</Header>
-                    <Text>hey there, i like to write code in a text editor</Text>
+                    <Header>About Me</Header>
+                    <Text>Hey there, I enjoy writing lines of text in some text editor..</Text>
                 </Group>
 
                 <Group>
-                    <Header>my skills</Header>
-                    <ListItem>javascript, typescript, vuejs & some react</ListItem>
-                    <ListItem>php & laravel</ListItem>
-                    <ListItem>java & kotlin</ListItem>
+                    <Header>My Skills</Header>
+                    <ListItem>JavaScript, TypeScript, VueJS & some React</ListItem>
+                    <ListItem>PHP &amp; Laravel</ListItem>
+                    <ListItem>Java &amp; Kotlin</ListItem>
                 </Group>
 
                 <Group>
-                    <Header>featured projects</Header>
+                    <Header>Featured Projects</Header>
                     <Item label="RiotQuest" url="https://github.com/supergrecko/RiotQuest">
-                        i like messing with the league of legends api so i built an open-source wrapper
+                        I enjoy messing with the Riot Games API so I built an open-source wrapper
                     </Item>
                     <Item label="LeagueVoice" url="https://github.com/supergrecko/LeagueVoice">
-                        we made google assistant interact with the league of legends client
+                        We made the Google Assistant use the League of Legends Client
                     </Item>
                     <Item label="LeagueConnect" url="https://github.com/supergrecko/league-connect">
-                        a very basic node module to connect to the league client apis
+                        A basic node module for interacting with the League Client APIs
                     </Item>
                     <Item label="Superlang" url="https://github.com/supergrecko/superlang">
-                        a programming language, basic tree walk interpreter written in kotlin
+                        A dummy programming language, tree-walk interpreter written in Kotlin
                     </Item>
                 </Group>
 
                 <Group>
-                    <Header>contact</Header>
-                    <ListItem>discord: supergrecko#3434</ListItem>
-                    <ListItem>email: me@supergrecko.com</ListItem>
+                    <Header>Contact Me</Header>
+                    <ListItem>Discord: supergrecko#3434</ListItem>
+                    <ListItem>Email: me@supergrecko.com</ListItem>
                 </Group>
             </Slice>
         </Content>
-        <Footing/>
     </Container>
 )
