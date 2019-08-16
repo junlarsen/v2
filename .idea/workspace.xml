@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="Remove old stylesheet and OpenGraph tags">
+    <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="Rewrite homepage layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/homepage/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/homepage/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/Styles.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +90,7 @@
       <workItem from="1565766767994" duration="8122000" />
       <workItem from="1565810682465" duration="983000" />
       <workItem from="1565888014141" duration="704000" />
-      <workItem from="1565948403278" duration="9771000" />
+      <workItem from="1565948403278" duration="10018000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565960840368</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Rewrite homepage layout">
+      <created>1565960880105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565960880105</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +197,8 @@
     <MESSAGE value="Fix accessibility issue" />
     <MESSAGE value="Remove old stylesheet and OpenGraph tags" />
     <MESSAGE value="Add language svgs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add language svgs" />
+    <MESSAGE value="Rewrite homepage layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrite homepage layout" />
   </component>
   <component name="masterDetails">
     <states>

@@ -14,7 +14,7 @@ export const Slice = ({ children, ...props }: React.PropsWithChildren<{ size: nu
 )
 
 export const Link = ({ children, ...props}: React.PropsWithChildren<{ url: string }>): JSX.Element => (
-    <Styled.Label href={props.url} role="linK" rel="noopener" target="_blank">{children}</Styled.Label>
+    <Styled.Label href={props.url} role="link" rel="noopener" target="_blank">{children}</Styled.Label>
 )
 
 export const Image = ({ ...props }): JSX.Element => (
@@ -53,10 +53,10 @@ export const App = (): JSX.Element => (
 
                 <Styled.Title>SKILLS</Styled.Title>
                 <Content size={0}>
-                    <Image src={IconJS} alt="JavaScript" />
-                    <Image src={IconTS} alt="TypeScript" />
-                    <Image src={IconJava} alt="Java" />
-                    <Image src={IconKt} alt="Kotlin Multiplatform" />
+                    <Image src={IconJS} alt="JavaScript" title="JavaScript" />
+                    <Image src={IconTS} alt="TypeScript" title="TypeScript" />
+                    <Image src={IconJava} alt="Java" title="Java" />
+                    <Image src={IconKt} alt="Kotlin" title="Kotlin" />
                 </Content>
             </Slice>
             <Slice size={8}>
