@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  padding: 2rem 1rem;
+  padding: 24px 12px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@ export const Group = styled.div`
 `
 
 export const LinkItem = styled.a`
-  margin: 0 1rem;
+  margin: 0 12px;
   color: #29b6f6;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;

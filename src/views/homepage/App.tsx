@@ -1,75 +1,87 @@
 import React from 'react'
 import { Nav } from '../../components/nav/Nav'
-import { Container, Content, SliceContainer, Title, ListItem, Label, Text, Group, Image, LogoFrame } from './Styles'
-import Icon from '../../icon.png';
+import * as Styled from './Styles'
+import Icon from '../../icon.png'
+import IconJS from '../../assets/javascript-original.svg'
+import IconTS from '../../assets/typescript-original.svg'
+import IconJava from '../../assets/java-original.svg'
+import IconKt from '../../assets/kotlin-original.svg'
 
 export const Slice = ({ children, ...props }: React.PropsWithChildren<{ size: number }>): JSX.Element => (
-    <SliceContainer {...props}>
+    <Styled.SliceContainer {...props}>
         {children}
-    </SliceContainer>
+    </Styled.SliceContainer>
+)
+
+export const Link = ({ children, ...props}: React.PropsWithChildren<{ url: string }>): JSX.Element => (
+    <Styled.Label href={props.url} role="linK" rel="noopener" target="_blank">{children}</Styled.Label>
+)
+
+export const Image = ({ ...props }): JSX.Element => (
+    <Styled.Icon {...props} />
+)
+
+export const Content = ({ children, ...props }: React.PropsWithChildren<{ size:number}>): JSX.Element => (
+    <Styled.Content {...props}>
+        {children}
+    </Styled.Content>
+)
+
+const Filler = ({ ...props }: React.PropsWithChildren<{ height: number }>): JSX.Element => (
+    <Styled.Filler {...props} />
 )
 
 export const Logo = (): JSX.Element => (
-    <LogoFrame>
-        <Image src={Icon} alt="a fish shark thing icon" />
-    </LogoFrame>
-)
-
-export const Item = ({ children, ...props }: React.PropsWithChildren<{ url: string, label: string }>): JSX.Element => (
-    <ListItem>
-        <Label role="link" href={props.url} rel="noopener" target="_blank">{props.label}</Label>
-        {`: ${children}`}
-    </ListItem>
-)
-
-export const Header = ({ children }: React.PropsWithChildren<{}>): JSX.Element => (
-    <Title role="heading" aria-level={1} aria-label={children!.toString() || 'Missing Title'}>
-        {children}
-    </Title>
+    <Styled.LogoFrame>
+        <Styled.Image src={Icon} alt="that silly fish icon" title="a silly fish" />
+    </Styled.LogoFrame>
 )
 
 export const App = (): JSX.Element => (
-    <Container>
-        <Nav/>
-        <Content>
+    <Styled.Container>
+        <Nav />
+        <Content size={24}>
             <Slice size={4}>
                 <Logo />
+
+                <Filler height={24} />
+
+                <Styled.Title>ABOUT ME</Styled.Title>
+                <Styled.Text>Hey there, I enjoy writing lines of text in some text editor..</Styled.Text>
+
+                <Filler height={40} />
+
+                <Styled.Title>SKILLS</Styled.Title>
+                <Content size={0}>
+                    <Image src={IconJS} alt="JavaScript" />
+                    <Image src={IconTS} alt="TypeScript" />
+                    <Image src={IconJava} alt="Java" />
+                    <Image src={IconKt} alt="Kotlin Multiplatform" />
+                </Content>
             </Slice>
             <Slice size={8}>
-                <Group>
-                    <Header>About Me</Header>
-                    <Text>Hey there, I enjoy writing lines of text in some text editor..</Text>
-                </Group>
+                <Styled.Title>PROJECTS</Styled.Title>
 
-                <Group>
-                    <Header>My Skills</Header>
-                    <ListItem>JavaScript, TypeScript, VueJS & some React</ListItem>
-                    <ListItem>PHP &amp; Laravel</ListItem>
-                    <ListItem>Java &amp; Kotlin</ListItem>
-                </Group>
+                <Filler height={12} />
 
-                <Group>
-                    <Header>Featured Projects</Header>
-                    <Item label="RiotQuest" url="https://github.com/supergrecko/RiotQuest">
-                        I enjoy messing with the Riot Games API so I built an open-source wrapper
-                    </Item>
-                    <Item label="LeagueVoice" url="https://github.com/supergrecko/LeagueVoice">
-                        We made the Google Assistant use the League of Legends Client
-                    </Item>
-                    <Item label="LeagueConnect" url="https://github.com/supergrecko/league-connect">
-                        A basic node module for interacting with the League Client APIs
-                    </Item>
-                    <Item label="Superlang" url="https://github.com/supergrecko/superlang">
-                        A dummy programming language, tree-walk interpreter written in Kotlin
-                    </Item>
-                </Group>
+                <Link url="https://github.com/supergrecko/RiotQuest">RiotQuest</Link>
+                <Styled.Text>I enjoy messing with the Riot Games API so I built an open-source wrapper</Styled.Text>
 
-                <Group>
-                    <Header>Contact Me</Header>
-                    <ListItem>Discord: supergrecko#3434</ListItem>
-                    <ListItem>Email: me@supergrecko.com</ListItem>
-                </Group>
+                <Filler height={24} />
+
+                <Link url="https://github.com/supergrecko/superlang">Superlang</Link>
+                <Styled.Text>A dummy programming language, tree-walk interpreter written in Kotlin</Styled.Text>
+
+                <Filler height={24} />
+
+                <Link url="https://github.com/supergrecko/superlang">LeagueConnect</Link>
+                <Styled.Text>A basic node module for interacting with the League Client APIs</Styled.Text>
+
+                <Filler height={24} />
+
+                <Link url="https://github.com/supergrecko/StackVM">StackVM</Link>
+                <Styled.Text>Stack based virtual machine for basic arithmetic operations with Kotlin Native</Styled.Text>
             </Slice>
         </Content>
-    </Container>
+    </Styled.Container>
 )

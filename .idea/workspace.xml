@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="">
+    <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="Remove old stylesheet and OpenGraph tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footing/Footing.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/homepage/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/homepage/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/Styles.ts" afterDir="false" />
     </list>
@@ -24,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Vue/gnizt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -36,12 +33,13 @@
     <property name="ts.external.directory.path" value="D:\Projects\React\me\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\React\me\src" />
-      <recent name="D:\Projects\React\me\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\React\me\src\views\homepage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\React\me\src\assets" />
+      <recent name="D:\Projects\React\me\src" />
+      <recent name="D:\Projects\React\me\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +92,7 @@
       <workItem from="1565766767994" duration="8122000" />
       <workItem from="1565810682465" duration="983000" />
       <workItem from="1565888014141" duration="704000" />
-      <workItem from="1565948403278" duration="1144000" />
+      <workItem from="1565948403278" duration="9771000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565546700606</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add language svgs">
+      <created>1565960840368</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565960840368</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +191,8 @@
     <MESSAGE value="Add fish image" />
     <MESSAGE value="Fix accessibility issue" />
     <MESSAGE value="Remove old stylesheet and OpenGraph tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove old stylesheet and OpenGraph tags" />
+    <MESSAGE value="Add language svgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add language svgs" />
   </component>
   <component name="masterDetails">
     <states>
