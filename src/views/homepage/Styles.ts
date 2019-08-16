@@ -52,7 +52,7 @@ export const Title = styled.h1`
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   color: #ecc94b;
-  margin: 0.4rem 0;
+  margin: 0.4rem 0 0.7rem 0;
   font-size: 1.75rem;
 `
 

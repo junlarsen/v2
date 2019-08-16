@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footing/Footing.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/homepage/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/homepage/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/Styles.ts" afterDir="false" />
     </list>
@@ -89,7 +91,10 @@
       <workItem from="1565647053715" duration="670000" />
       <workItem from="1565715334534" duration="36000" />
       <workItem from="1565729644654" duration="749000" />
-      <workItem from="1565766767994" duration="4873000" />
+      <workItem from="1565766767994" duration="8122000" />
+      <workItem from="1565810682465" duration="983000" />
+      <workItem from="1565888014141" duration="704000" />
+      <workItem from="1565948403278" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>

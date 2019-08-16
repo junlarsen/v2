@@ -1,6 +1,5 @@
 import React from 'react'
 import { Nav } from '../../components/nav/Nav'
-import { Footing } from '../../components/footing/Footing'
 import { Container, Content, SliceContainer, Title, ListItem, Label, Text, Group, Image, LogoFrame } from './Styles'
 import Icon from '../../icon.png';
 
