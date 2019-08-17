@@ -29,7 +29,7 @@ export const LinkItem = styled.a`
   transition: all .4s ease;
   
   &:hover {
-    border-bottom: 3px solid #f7fafc;
+    border-bottom: 3px solid #29b6f6;
   }
   
   &.hidden {

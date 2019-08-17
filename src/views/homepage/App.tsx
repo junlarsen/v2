@@ -55,8 +55,8 @@ export const App = (): JSX.Element => (
                 <Content size={0}>
                     <Image src={IconJS} alt="JavaScript" title="JavaScript" />
                     <Image src={IconTS} alt="TypeScript" title="TypeScript" />
-                    <Image src={IconJava} alt="Java" title="Java" />
                     <Image src={IconKt} alt="Kotlin" title="Kotlin" />
+                    <Image src={IconJava} alt="Java" title="Java" />
                 </Content>
             </Slice>
             <Slice size={8}>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="Rewrite homepage layout">
+    <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/homepage/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +28,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Projects\React\me\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -90,7 +91,10 @@
       <workItem from="1565766767994" duration="8122000" />
       <workItem from="1565810682465" duration="983000" />
       <workItem from="1565888014141" duration="704000" />
-      <workItem from="1565948403278" duration="10018000" />
+      <workItem from="1565948403278" duration="14396000" />
+      <workItem from="1565984318606" duration="33000" />
+      <workItem from="1565984365809" duration="1229000" />
+      <workItem from="1566037591286" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>
@@ -155,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565960880105</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix role=link and add img title">
+      <created>1565961110874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565961110874</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +209,8 @@
     <MESSAGE value="Remove old stylesheet and OpenGraph tags" />
     <MESSAGE value="Add language svgs" />
     <MESSAGE value="Rewrite homepage layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewrite homepage layout" />
+    <MESSAGE value="Fix role=link and add img title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix role=link and add img title" />
   </component>
   <component name="masterDetails">
     <states>
