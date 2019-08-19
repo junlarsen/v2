@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/homepage/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +19,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +94,9 @@
       <workItem from="1565948403278" duration="14396000" />
       <workItem from="1565984318606" duration="33000" />
       <workItem from="1565984365809" duration="1229000" />
-      <workItem from="1566037591286" duration="114000" />
+      <workItem from="1566037591286" duration="1056000" />
+      <workItem from="1566073158904" duration="290000" />
+      <workItem from="1566224121753" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565961110874</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Change order of svgs and make links blue">
+      <created>1566037719696</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566037719696</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +219,8 @@
     <MESSAGE value="Add language svgs" />
     <MESSAGE value="Rewrite homepage layout" />
     <MESSAGE value="Fix role=link and add img title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix role=link and add img title" />
+    <MESSAGE value="Change order of svgs and make links blue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change order of svgs and make links blue" />
   </component>
   <component name="masterDetails">
     <states>

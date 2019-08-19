@@ -4,7 +4,6 @@ import * as Styled from './Styles'
 import Icon from '../../icon.png'
 import IconJS from '../../assets/javascript-original.svg'
 import IconTS from '../../assets/typescript-original.svg'
-import IconJava from '../../assets/java-original.svg'
 import IconKt from '../../assets/kotlin-original.svg'
 
 export const Slice = ({ children, ...props }: React.PropsWithChildren<{ size: number }>): JSX.Element => (
@@ -56,7 +55,6 @@ export const App = (): JSX.Element => (
                     <Image src={IconJS} alt="JavaScript" title="JavaScript" />
                     <Image src={IconTS} alt="TypeScript" title="TypeScript" />
                     <Image src={IconKt} alt="Kotlin" title="Kotlin" />
-                    <Image src={IconJava} alt="Java" title="Java" />
                 </Content>
             </Slice>
             <Slice size={8}>
