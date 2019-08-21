@@ -46,7 +46,7 @@ export const App = (): JSX.Element => (
                 <Filler height={24} />
 
                 <Styled.Title>ABOUT ME</Styled.Title>
-                <Styled.Text>Hey there, I enjoy writing lines of text in some text editor..</Styled.Text>
+                <Styled.Text>Second year high school student, self taught programmer since 2016.</Styled.Text>
 
                 <Filler height={40} />
 
