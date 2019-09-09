@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tasky.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/homepage/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="D:\Projects\React\me\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -97,7 +97,8 @@
       <workItem from="1566037591286" duration="1056000" />
       <workItem from="1566073158904" duration="290000" />
       <workItem from="1566224121753" duration="703000" />
-      <workItem from="1566406166468" duration="32000" />
+      <workItem from="1566406166468" duration="763000" />
+      <workItem from="1568051520416" duration="2002000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>
@@ -183,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566224142776</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update: Fix date and change up projects">
+      <created>1568052050098</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568052050098</updated>
+    </task>
+    <task id="LOCAL-00014" summary="cd: try tasky kek">
+      <created>1568053190927</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568053190927</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +244,9 @@
     <MESSAGE value="Fix role=link and add img title" />
     <MESSAGE value="Change order of svgs and make links blue" />
     <MESSAGE value="Remove java icon as it didn't match" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove java icon as it didn't match" />
+    <MESSAGE value="update: Fix date and change up projects" />
+    <MESSAGE value="cd: try tasky kek" />
+    <option name="LAST_COMMIT_MESSAGE" value="cd: try tasky kek" />
   </component>
   <component name="masterDetails">
     <states>
