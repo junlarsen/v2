@@ -1,5 +1,5 @@
 {
-  "@tasky/core": "^1.2.0",
-  "@tasky/git": "^1.2.0",
-  "@tasky/npm": "^1.2.1"
+  "@tasky/core": "^1.3.0",
+  "@tasky/git": "^1.3.0",
+  "@tasky/npm": "^1.3.0"
 }

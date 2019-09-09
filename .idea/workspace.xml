@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tasky.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasky.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasky.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tasky.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +101,8 @@
       <workItem from="1566073158904" duration="290000" />
       <workItem from="1566224121753" duration="703000" />
       <workItem from="1566406166468" duration="763000" />
-      <workItem from="1568051520416" duration="2002000" />
+      <workItem from="1568051520416" duration="2145000" />
+      <workItem from="1568057244969" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>
@@ -198,11 +202,34 @@
       <option name="project" value="LOCAL" />
       <updated>1568053190927</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="cd: add tasky.json">
+      <created>1568053531942</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568053531942</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/@tasky/core/src/core/Tasky.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/core/src/core/Command.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/core/src/core/Plugin.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/core/src/core/Task.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/git/src/GitPlugin.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/git/src/GitPlugin.js" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/npm/src/NPMPlugin.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/core/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/git/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/git/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/npm/index.js.map" />
+        <option value="$PROJECT_DIR$/node_modules/@tasky/core/src/App.js.map" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -246,7 +273,8 @@
     <MESSAGE value="Remove java icon as it didn't match" />
     <MESSAGE value="update: Fix date and change up projects" />
     <MESSAGE value="cd: try tasky kek" />
-    <option name="LAST_COMMIT_MESSAGE" value="cd: try tasky kek" />
+    <MESSAGE value="cd: add tasky.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="cd: add tasky.json" />
   </component>
   <component name="masterDetails">
     <states>

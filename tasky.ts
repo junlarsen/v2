@@ -10,10 +10,19 @@ Tasky
             .addOption('-rf')
             .addArgument('public')
             .execute()
+
+        await task('git')
+            .addArgument('reset')
+            .addOption('--hard')
+            .execute()
+
+        await task('git')
+            .addArgument('pull')
+            .execute()
     })
-    .task<NPM>('npm', (npm) => {
-        npm.install()
-        npm.runScript('build')
+    .task<NPM>('npm', async (npm) => {
+        await npm.install()
+        await npm.runScript('build')
     })
     .task('custom', async () => {
         await task('rm')
@@ -26,3 +35,4 @@ Tasky
             .addArgument('public')
             .execute()
     })
+    .run()
