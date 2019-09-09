@@ -46,7 +46,7 @@ export const App = (): JSX.Element => (
                 <Filler height={24} />
 
                 <Styled.Title>ABOUT ME</Styled.Title>
-                <Styled.Text>Second year high school student, self taught programmer since 2016.</Styled.Text>
+                <Styled.Text>Second year high school student, self taught programmer since 2017.</Styled.Text>
 
                 <Filler height={40} />
 
@@ -67,8 +67,8 @@ export const App = (): JSX.Element => (
 
                 <Filler height={24} />
 
-                <Link url="https://github.com/supergrecko/superlang">Superlang</Link>
-                <Styled.Text>A dummy programming language, tree-walk interpreter written in Kotlin</Styled.Text>
+                <Link url="https://github.com/supergrecko/tasky">Tasky</Link>
+                <Styled.Text>An extremely overengineered wrapper for your trusty terminal.</Styled.Text>
 
                 <Filler height={24} />
 
@@ -77,8 +77,8 @@ export const App = (): JSX.Element => (
 
                 <Filler height={24} />
 
-                <Link url="https://github.com/supergrecko/StackVM">StackVM</Link>
-                <Styled.Text>Stack based virtual machine for basic arithmetic operations with Kotlin Native</Styled.Text>
+                <Link url="https://github.com/supergrecko/v2">V2</Link>
+                <Styled.Text>This website, written with TypeScript, React and styled-components.</Styled.Text>
             </Slice>
         </Content>
     </Styled.Container>
