@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f23ffdfb-792e-4695-90ff-3de5c2640ba5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasky.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasky.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tasky.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/homepage/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homepage/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +100,7 @@
       <workItem from="1566406166468" duration="763000" />
       <workItem from="1568051520416" duration="2145000" />
       <workItem from="1568057244969" duration="107000" />
+      <workItem from="1569528088782" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="Create React App TypeScript">
       <created>1565539138141</created>
@@ -209,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568053531942</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix: revert index.html">
+      <created>1568057509903</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1568057509903</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +279,8 @@
     <MESSAGE value="update: Fix date and change up projects" />
     <MESSAGE value="cd: try tasky kek" />
     <MESSAGE value="cd: add tasky.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="cd: add tasky.json" />
+    <MESSAGE value="fix: revert index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: revert index.html" />
   </component>
   <component name="masterDetails">
     <states>
