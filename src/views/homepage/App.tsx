@@ -63,22 +63,17 @@ export const App = (): JSX.Element => (
                 <Filler height={12} />
 
                 <Link url="https://github.com/supergrecko/RiotQuest">RiotQuest</Link>
-                <Styled.Text>I enjoy messing with the Riot Games API so I built an open-source wrapper in PHP</Styled.Text>
-
-                <Filler height={24} />
-
-                <Link url="https://github.com/supergrecko/images">Images</Link>
-                <Styled.Text>I needed somewhere to store screenshots so I wrote a Golang microservice to receive ShareX images.</Styled.Text>
+                <Styled.Text>Open source API wrapper for the Riot Games API for PHP 7.1+</Styled.Text>
 
                 <Filler height={24} />
 
                 <Link url="https://github.com/supergrecko/league-connect">LeagueConnect</Link>
-                <Styled.Text>A basic node module for interacting with the League Client APIs</Styled.Text>
+                <Styled.Text>An open source node module for interacting with the League of Legends Client APIs</Styled.Text>
 
                 <Filler height={24} />
 
-                <Link url="https://github.com/supergrecko/v2">Portfolio</Link>
-                <Styled.Text>This website, written with TypeScript, React and styled-components.</Styled.Text>
+                <Link url="https://github.com/messier-lang/messier">Messier</Link>
+                <Styled.Text>A proof-of-concept programming language for the Arduino platform (work-in-progress)</Styled.Text>
             </Slice>
         </Content>
     </Styled.Container>
